@@ -1,0 +1,45 @@
+//Idade em Dias 
+//Você terá o desafio de ler um valor inteiro correspondente à idade de uma 
+//pessoa em dias e informe-a em anos, meses e dias
+//Obs.: apenas para facilitar o cálculo, considere todo ano com 365 dias e todo mês com 30
+//dias. Nos casos de teste nunca haverá uma situação que permite 12 meses e alguns dias, 
+//como 360, 363 ou 364.
+
+package aula4;
+
+import java.util.Scanner;
+
+public class IdadeEmDias {
+    public static void main(String[] args) {
+    	System.out.println("Digite uma idade: ");
+    	
+    	System.out.print("Anos:");
+    	Scanner scanAno = new Scanner(System.in);
+    	System.out.println();
+    	
+    	System.out.print("Meses:");
+    	//Scanner scanMes = new Scanner(System.in);
+    	System.out.println();
+    	
+    	System.out.print("Dias:");
+    	//Scanner scanDia = new Scanner(System.in);
+    	System.out.println();
+    	
+    	int valorAno;
+    	int valorMes;
+    	int valorDia;
+    	
+    	valorAno = Integer.parseInt(scanAno.nextLine());
+
+    	//valorMes = Integer.parseInt(scanMes.nextLine());
+
+    	//valorDia = Integer.parseInt(scanDia.nextLine());
+    			
+    			
+//    	System.out.println("Idade digitada: Anos:" + valorAno 
+//    			           + ", Meses: " + valorMes 
+//    			           + ", Dias: " + valorDia);
+//    	
+    	
+    }
+}
