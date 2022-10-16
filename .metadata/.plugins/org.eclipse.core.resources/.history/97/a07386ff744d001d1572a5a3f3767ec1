@@ -34,7 +34,7 @@ public class ComprasNoSupermercado {
 	lista.add("leite");
 	
 	listaArray.addAll(lista);
-	listaArray.sort(null);
+	//listaArray.sort(null);
 	
 	listaArray.forEach(l -> System.out.println(l));
   }
