@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Iterator;
-import java.util.Optional;
+import java.util.stream.Stream;
 
 public class TesteCliente {
   public static void main(String[] args) {
@@ -60,11 +60,6 @@ public class TesteCliente {
      
      //Stream metodo Filter
      System.out.println("STREAM METODO FILTER");
-     cliente.stream().filter(x -> x.getNome() == "Jose")
-     .forEach(x -> System.out.println(x.getNome()));
-     
-     //Stream metodo FindAny
-     System.out.println("STREAM METODO FINDANY");
-     System.out.println(cliente.stream().findAny().orElseGet(null).getNome());
+     Stream c = cliente.stream().filter("Jose");
   }	 
 }

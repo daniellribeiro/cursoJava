@@ -65,6 +65,7 @@ public class TesteCliente {
      
      //Stream metodo FindAny
      System.out.println("STREAM METODO FINDANY");
-     System.out.println(cliente.stream().findAny().orElseGet(null).getNome());
+     Optional clienteFindAny = cliente.stream().findAny();
+     System.out.println(clienteFindAny);
   }	 
 }
