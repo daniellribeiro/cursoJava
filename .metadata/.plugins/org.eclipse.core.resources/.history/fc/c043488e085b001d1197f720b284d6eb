@@ -2,12 +2,14 @@ import java.util.Date;
 
 public class Cliente{
 	private String nome;
+	private Date dataNascimento;
 	private String cpf;
 	private int agencia;
 	private int numeroDaConta;
 	
 	public Cliente(String nome, String cpf, int agencia, int numeroDaConta) {
 		this.nome = nome;
+		this.dataNascimento = dataNascimento;
 		this.cpf = cpf;
 		this.agencia = agencia;
 		this.numeroDaConta = numeroDaConta;

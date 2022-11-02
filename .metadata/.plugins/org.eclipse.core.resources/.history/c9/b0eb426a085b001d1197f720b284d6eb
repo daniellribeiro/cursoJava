@@ -1,7 +1,6 @@
-import java.util.Date;
-
 public class Cliente{
 	private String nome;
+	private Date dataNascimento;
 	private String cpf;
 	private int agencia;
 	private int numeroDaConta;
